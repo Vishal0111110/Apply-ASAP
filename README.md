@@ -1,53 +1,24 @@
-## Career Rec! - A Flutter Career Recommendation App
+Apply-ASAP
 
-This is a Demo Flutter project for recommending Careers intelligently using the power of Google's Gemini AI model. The app features a user-friendly interface that guides users through a series of questions to understand their interests and preferences. 
+Apply-ASAP is a comprehensive platform designed to streamline the job application process by:
 
-Based on the user's responses, the app leverages Gemini AI to generate a personalized list of suitable career paths.  Each recommendation is accompanied by a concise explanation, highlighting why it aligns with the user's profile, and a breakdown of essential skills for success in that field. 
+1. Quick Survey & Recommendations: Takes a quick survey to understand user preferences and recommends the most suitable job domains, job links, and relevant courses.
 
-To enhance the user experience, Career Rec! also includes a built-in chatbot powered by Gemini AI. This chatbot allows users to engage in further discussions about the recommended careers, providing valuable insights and answering any questions they might have. Additionally, users can conveniently export their chat history via email or WhatsApp for future reference or to share with others.
 
-### Features
+2. AI Chatbot Support: Offers an AI-powered chatbot that provides insights about job domains, career paths, and professional growth.
 
-- **Personalized Career Recommendations:**  Receive tailored career suggestions based on your interests and preferences.
-- **AI-Powered Insights:** Benefit from the intelligence of Google's Gemini AI for accurate and relevant recommendations.
-- **Interactive Chatbot:**  Engage in deeper conversations about recommended careers with a helpful chatbot.
-- **Chat History Export:** Conveniently share your chat history via email or WhatsApp.
 
-### Preview
+3. Tailored Resumes/CVs: Generates customized and tailored resumes/CVs specifically aligned with the recommended job domain.
 
-https://github.com/jeryjs/Career-Recommendation-App-Flutter/assets/77010142/a2c33b85-8bd8-4143-9542-3aed1b8fee94
 
-### Build Instructions
+4. Auto-Apply Chrome Extension: Includes a Chrome extension built using React, Node.js, and Express that automatically applies to job listings with minimal user effort.
 
-1. **Clone the repository:**
+Features:-
 
-   ```bash
-   git clone https://github.com/jeryjs/Career-Recommendation-App-Flutter.git
-   ```
+Personalized Job Recommendations based on user preferences using AI.
 
-2. **Install dependencies:**
+AI Chatbot Assistance for career advice and domain insights.
 
-   ```bash
-   flutter pub get
-   ```
+Resume/CV Generator tailored for specific job domains.
 
-3. **Obtain a Google AI Studio API Key:**
-
-   - Navigate to [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
-   - Click on "Create API key".
-   - Copy the generated API key.
-
-4. **Create `gemini.key` file:**
-
-   - In the project's `assets` directory, create a new file named `gemini.key`.
-   - Paste your Google AI Studio API key into this file and save.
-
-5. **Run the app:**
-
-   ```bash
-   flutter run
-   ```
-
-### License
-
-This project is licensed under the MIT License. 
+Auto-Apply Chrome Extension to automate job applications.   
